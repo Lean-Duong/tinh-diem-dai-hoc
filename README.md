@@ -86,24 +86,8 @@ Bình thường các môn sẽ tình lẻ điểm theo bảng quy đổi điểm
 
 ----
 
-## Chạy thử (ai lười đọc ở trên)
-
-```bash
-g++ main.cpp -o tinhdiem
-./tinhdiem
-```
-
-Windows thì chạy `tinhdiem.exe`. Mở lên nó hỏi chọn 1 hay 2, chọn xong nhập điểm, nhập sai nó bắt nhập lại (năn nỉ luôn), xong bấm 0 để thoát.
-
-Ví dụ: giữa kì 8, thường xuyên 9 với 10, cuối kì để trống thì nó in ra cần 8.10 điểm cuối kì để được A. Nghe hơi căng nhưng mà đúng công thức của trường.
-
-## Ghi chú linh tinh
-
-- Code một file, không thư viện ngoài, không CMake gì cho mệt. Copy đi đâu cũng biên dịch được.
-- Case 2 thì nhập điểm hệ 4 (0–4) luôn cho nhanh, khỏi quy đổi từ hệ 10 rồi lại quy đổi ngược.
-- Điểm nhập sai (chữ, số âm, 11 điểm) thì chương trình không sập, chỉ càu nhàu rồi hỏi lại. Tốt hơn tôi hồi làm bài.
-- Chưa có điểm cuối kì thì cứ để trống, nó tính hộ mức điểm cần đạt cho từng loại A, B+, B, C+, C, D+, D.
-- Còn gì chưa hoàn hảo thì kệ, dùng được là được. Thấy sai thì sửa rồi mở pull request, tôi duyệt (chắc vậy).
+## Cách chạy
+Biên dịch code ở hàm main rồi nhập xuất theo hướng dẫn
 
 
 
