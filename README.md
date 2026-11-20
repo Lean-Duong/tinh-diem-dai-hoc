@@ -18,7 +18,7 @@ Case 1: Xác định điểm chữ của môn
 Điểm giữa kì: (0-10)
 
 Số điểm thường xuyên (vòng lặp):
-Nhập lần lượt từng điểm thường xuyên
+Nhập lần lượt từng điểm thường xuyên, xong thì gõ -1 (khỏi phải đếm trước cho mệt)
 
 Điểm cuối kì (thường là không - và để trống không nhập)
 
@@ -88,6 +88,8 @@ Bình thường các môn sẽ tình lẻ điểm theo bảng quy đổi điểm
 
 ## Cách chạy
 Biên dịch code ở hàm main rồi nhập xuất theo hướng dẫn
+
+Nhập `-1` ở câu nào cũng được để huỷ về menu, gõ `u` để xoá điểm thường xuyên vừa nhập.
 
 
 
