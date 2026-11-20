@@ -37,6 +37,26 @@ double nhapDiem(string loiNhac){
 	}
 }
 
+// Nhap diem he 4 (0-4) cho case 2. He 4 thi khoang cung ngan hon he 10, de tho hon.
+double nhapDiem4(string loiNhac){
+	double d;
+	while (true){
+		cout << loiNhac;
+		cin >> d;
+		if (cin.fail()){
+			cin.clear();
+			cin.ignore(1000, '\n');
+			cout << "Nhap so thoi ba oi :(" << endl;
+			continue;
+		}
+		if (d < 0 || d > 4){
+			cout << "He 4 thi 0-4 thoi nha, dung nhap he 10 vao day" << endl;
+			continue;
+		}
+		return d;
+	}
+}
+
 // Nhap so nguyen duong, dung cho so mon voi so tin
 int nhapSoDuong(string loiNhac){
 	int n;
@@ -174,9 +194,9 @@ void hocLuc(){
 		cout << "\nMon " << i << ":" << endl;
 		int tinChi = nhapSoDuong("  So tin chi: ");
 		stringstream loiNhac;
-		loiNhac << "  Diem mon nay (he 10): ";
-		double diem = nhapDiem(loiNhac.str());
-		tongDiem4 += quyDoi4(diem) * tinChi;
+		loiNhac << "  Diem mon nay (he 4): ";
+		double diem = nhapDiem4(loiNhac.str());
+		tongDiem4 += diem * tinChi;
 		tongTinChi += tinChi;
 	}
 

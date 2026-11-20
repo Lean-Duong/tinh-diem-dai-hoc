@@ -100,6 +100,7 @@ Ví dụ: giữa kì 8, thường xuyên 9 với 10, cuối kì để trống th
 ## Ghi chú linh tinh
 
 - Code một file, không thư viện ngoài, không CMake gì cho mệt. Copy đi đâu cũng biên dịch được.
+- Case 2 thì nhập điểm hệ 4 (0–4) luôn cho nhanh, khỏi quy đổi từ hệ 10 rồi lại quy đổi ngược.
 - Điểm nhập sai (chữ, số âm, 11 điểm) thì chương trình không sập, chỉ càu nhàu rồi hỏi lại. Tốt hơn tôi hồi làm bài.
 - Chưa có điểm cuối kì thì cứ để trống, nó tính hộ mức điểm cần đạt cho từng loại A, B+, B, C+, C, D+, D.
 - Còn gì chưa hoàn hảo thì kệ, dùng được là được. Thấy sai thì sửa rồi mở pull request, tôi duyệt (chắc vậy).
