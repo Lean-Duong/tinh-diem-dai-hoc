@@ -1,0 +1,6 @@
+# file build ra, khoi can dua len git
+tinhdiem
+tinhdiem.exe
+*.exe
+*.o
+*.obj
